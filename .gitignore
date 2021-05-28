@@ -1,3 +1,6 @@
 obj
 bin
 appsettings.json
+types.json
+products.json
+brands.json
