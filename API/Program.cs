@@ -13,6 +13,7 @@ namespace API
     {
         public static async Task Main(string[] args)
         {
+            // An alternate way to update the database  
             var host = CreateHostBuilder(args).Build();
 
             using (var scope = host.Services.CreateScope())
